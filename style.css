@@ -1,0 +1,271 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1;
+    font-family: Arial, sans-serif;
+}
+.mainname{
+    color: #5FCF80 !important;
+}
+.navbar-brand{
+    font-size: 1.5rem;
+    color: #5FCF80;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.navbar-nav .nav-item{
+    margin-right: 10px;
+}
+#main-content{
+    width: 100%;
+    color: white;
+    height: 86vh;
+    position: relative;
+    padding: 80px 0;
+    background-image: url('assets/2062.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    
+}
+
+#main-content h2{
+    margin-top: 20px;
+    font-size: 48px;
+    font-weight: 700;
+}
+#main-content p{
+    color: color-mix(in srgb, var(--default-color), transparent 20%);
+    font-size: 24px;
+}
+
+#main-content p, h2, .btn-btn {
+    margin: 10px 60px;
+}
+
+.btn-btn {
+    border: 2px solid white;
+   
+    color: white;
+    background-color: transparent;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 1px;
+   
+    padding: 8px 35px 10px 35px;
+    border-radius: 50px;
+    transition: 0.4s;
+    margin-top: 30px;
+}
+.btn-btn:hover{
+    background-color: #5FCF80;
+    border: 2px solid #5FCF80;
+}
+
+#about{
+    padding: 50px 0;
+    
+}
+#about button{
+    margin:20px 0;
+    padding: 10px 24px 12px 24px;
+    border-radius: 50px;
+    border: none;
+    background: #5FCF80;
+    color: white;
+    font-weight: 500 ;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+#about li{
+    list-style: none;
+}
+
+
+
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.count-section{
+    background-color: #F9F9F9;
+    padding: 30px 0;
+}
+#count-main{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30vb;
+}
+
+#count-main p{
+    color: #5FCF80;
+    font-size: 48px;
+    font-weight: 600;
+}
+#count-main h3{
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+}
+#why-us-container{
+    padding: 50px 50px;
+}
+
+#product{
+    background-color: #5FCF80;
+    color: white;
+    
+    padding: 30px;
+}
+#product h2{
+    font-size: 34px;
+    font-weight: 700;
+    margin-bottom:30px;
+}
+#why-us-container{
+    display: flex;
+   
+    align-items: center;
+    column-gap: 30px;
+
+}
+#product button{
+    padding: 8px 40px 10px 40px;
+    color: var(--default-color);
+    background-color:  #7ecc95;
+    border-style: none;
+    border-radius: 50px;
+    float: right;
+}
+#product button:hover{
+    background-color: #ffffff;
+    color: #5FCF80;
+
+}
+#product-points{
+    padding: 10px 0;
+    
+}
+.points{
+    border: 1px solid #ECECEC;
+    padding: 100px 20px;
+    width: 100%;
+    text-align: center;
+}
+.points i:hover{
+    height: 50px;
+    background-color: #5FCF80;
+    color: white;
+}
+#product-points{
+    display: flex;
+    column-gap: 10px;
+}
+#product-points i{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: xx-large;
+}
+
+
+
+.points h4
+{
+    font-size: 20px;
+ 
+    line-height:24px;
+    margin: 20px 5px;
+}
+.points p{
+    line-height:23px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+
+#features{
+    padding: 50px 0;
+}
+
+#features-container {
+    display: flex;
+    column-gap: 30px;
+    flex-direction: column;
+}
+#features-container a{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none;
+}
+#features-container a:hover{
+    color: #5FCF80;
+
+}
+#features-container div{
+    margin: 10px;
+}
+
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row1 div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    padding: 20px 50px;
+    
+    border: 1px solid rgba(128, 128, 128, 0.315);
+}
+.row1 div:hover{
+   
+    border: 1px solid #5FCF80;
+}
+
+#courses{
+    padding: 60px 0;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+.card img{
+    width: 100%;
+    
+    height: auto;
+}
+
+.traine{
+  
+    border-top: 1px solid rgba(128, 128, 128, 0.315);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+}
+.traine img{
+    margin-right: 18px;
+   
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+   
+}
+.traine h5:hover{
+    color: #5FCF80;
+}
